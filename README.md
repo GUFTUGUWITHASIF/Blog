@@ -12,20 +12,43 @@ User authentication and authorization for managing posts and comments.
 Responsive design for an optimal viewing experience on various devices.
 
 Installation:
-git clone
+
+
+git clone https://github.com/GUFTUGUWITHASIF/Blog.git
+
+
 cd project
+
+
 crete Virtual Environment: python -m venv venv
 
+
 Install project dependencies:
+
+
+
 pip3 install django
+
+
 pip3 install django_framework
+
+
 pip3 install pillow
+
 
 Run migrations to set up the database:
 
+
+
 python3 manage.py makemigrations
+
+
 python3 manage.py migrate
+
+
 python3 manage.py createsuperuser
+
+
 python3 manage.py runserver
 
 
@@ -41,7 +64,7 @@ Contributing
 
 
 
-pecial thanks to the Django community and the creators of the Django web framework for making this project possible.
+Special thanks to the Django community and the creators of the Django web framework for making this project possible.
 Feel free to customize this README to include any additional information specific to your project or any other details you find relevant. Including clear and concise instructions for setting up and using your blog is essential to help others understand and contribute to your project.
 
 
